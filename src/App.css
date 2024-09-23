@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header Styles */
+h1 {
+  text-align: center;
+  color: #004C97; /* Southwest Blue */
+  margin-top: 20px;
+}
+
+h2 {
+  color: #C8102E; /* Southwest Red */
+  text-align: center;
+}
+
+/* Form Styles */
+form {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 50%;
+}
+
+form div {
+  width: 100%;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #C8102E; /* Southwest Red */
+}
+
+select, input, button {
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #FFC72C; /* Southwest Yellow */
+  color: #004C97; /* Southwest Blue */
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #004C97; /* Southwest Blue */
+  color: #FFFFFF;
+}
+
+/* Table Styles */
+#productTable {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+}
+
+#productTable th, #productTable td {
+  border: 2px solid #004C97; /* Southwest Blue Border */
+  padding: 12px;
+  text-align: left;
+}
+
+#productTable th {
+  background-color: #FFC72C; /* Southwest Yellow Header */
+  color: #004C97; /* Text color */
+}
+
+#productTable td {
+  background-color: #F4F4F4; /* Light Gray Background for Rows */
+}
+
+/* JSON Display */
+#jsonDisplay {
+  white-space: pre-wrap;
+  background-color: #F4F4F4;
+  padding: 10px;
+  border: 2px solid #004C97; /* Blue Border */
+  margin-top: 20px;
+  font-family: monospace;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Centering and Layout */
+button, #jsonDisplay {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #C8102E; /* Southwest Red on Hover */
+  color: white;
+}
